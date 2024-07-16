@@ -98,7 +98,6 @@ For detailed methodologies and implementations, refer to the original paper:
 - **Poetry**: Dependency management and packaging tool for Python.
 
 
-
 ## Setup Instructions
 
 Follow these steps to set up the project on your local machine:
@@ -129,9 +128,10 @@ This step is optional because Poetry automatically manages the virtual environme
 **4. Set Up Environment Variables:**
 - Create a .env file in the root directory of your project and add the required environment variables. For example:
 ```
-OPENAI_API_KEY=Your_OPENAI_API_KEY
-POSTGRES_URL_EMBEDDINDS=YOUR_POSTGRES_URL,  like:-postgresql+psycopg://{db_user}:{db_password}@{db_host}:{db_port}/{db_name}
-POSTGRES_URL=YOUR_POSTGRES_URL ,  like:- postgresql://{db_user}:{db_password}@{db_host}:{db_port}/{db_name}
+OPENAI_API_KEY = Your_OPENAI_API_KEY
+POSTGRES_URL_EMBEDDINDS = YOUR_POSTGRES_URL,  like:-postgresql+psycopg://{db_user}:{db_password}@{db_host}:{db_port}/{db_name}
+POSTGRES_URL = YOUR_POSTGRES_URL ,  like:- postgresql://{db_user}:{db_password}@{db_host}:{db_port}/{db_name}
+COHERE_API_KEY = YOUR_COHERE_API_KEY
 ```
 
 **5. Run Data ingestion file**
