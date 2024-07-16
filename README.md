@@ -89,6 +89,7 @@ For detailed methodologies and implementations, refer to the original paper:
 
 ## Technologies Used
 
+- **Re-Ranker**: Rerankers are much more accurate than embedding models.
 - **LangChain**: Framework for building applications with language models.
 - **RAG (Retrieval-Augmented Generation)**: Combines retrieval and generation for more accurate answers.
 - **RAPTOR**: Constructs a recursive tree structure from documents for efficient, context-aware information retrieval.
