@@ -90,11 +90,11 @@ For detailed methodologies and implementations, refer to the original paper:
 ## Technologies Used
 
 - **Re-Ranker**: Rerankers are much more accurate than embedding models.
-- **LangChain**: Framework for building applications with language models.
-- **RAG (Retrieval-Augmented Generation)**: Combines retrieval and generation for more accurate answers.
-- **RAPTOR**: Constructs a recursive tree structure from documents for efficient, context-aware information retrieval.
-- **Streamlit**: Framework for creating interactive web applications with Python.
 - **Unstructured.io**: Tool for parsing and extracting complex content from PDFs, such as tables, graphs, and images.
+- **LangChain**: Framework for building applications with language models.
+- **RAPTOR**: Constructs a recursive tree structure from documents for efficient, context-aware information retrieval.
+- **RAG (Retrieval-Augmented Generation)**: Combines retrieval and generation for more accurate answers.
+- **Streamlit**: Framework for creating interactive web applications with Python.
 - **Poetry**: Dependency management and packaging tool for Python.
 
 
@@ -105,8 +105,8 @@ Follow these steps to set up the project on your local machine:
 **1. Clone the Repository:**
 - Begin by cloning the repository to your local machine:
 ```
-https://github.com/langchain-tech/Rag-raptor-demo.git
-cd Rag-raptor-demo
+https://github.com/langchain-tech/re-ranker-demo.git
+cd re-ranker-demo
 ```
 
 **2. Install project dependencies:**
