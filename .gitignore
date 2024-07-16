@@ -1,0 +1,10 @@
+venv/
+.env
+
+.venv/
+
+__pycache__
+
+poetry.lock
+
+data/images
